@@ -15,17 +15,15 @@ html, body, section, .full-height {
 
 #markdown {
   overflow: auto;
+  word-wrap: break-word;
   padding: 10px;
-  padding-left: 0;
-  white-space: pre; }
+  padding-left: 0; }
+  #markdown p {
+    font-size: 18px; }
 
 textarea {
   background-color: #d8d8d8;
   padding: 10px; }
-
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0; }
 
 .input-text {
   padding-right: 15px; }
