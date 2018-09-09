@@ -1,0 +1,49 @@
+$lightblue: #004d99;
+$darkgray: rgb(31,31,31);
+
+html, body, section, .full-height {
+    height: 100%;
+    font: normal 20px "Open Sans", sans-serif;
+}
+
+#pad{
+
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#markdown {
+    overflow: auto;
+    padding: 10px;
+    padding-left: 0;
+    white-space:pre
+}
+
+textarea {
+  background-color: #d8d8d8;
+  padding: 10px;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.input-text {
+  padding-right: 15px;
+}
+header {
+  background-color: $lightblue;
+  height: 50px;
+}
+footer {
+  background-color: $darkgray;
+  height: 50px;
+}
