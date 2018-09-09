@@ -6,6 +6,16 @@ html, body, section, .full-height {
     font: normal 20px "Open Sans", sans-serif;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #pad{
 
     width: 100%;
@@ -38,6 +48,7 @@ textarea {
 
 .input-text {
   padding-right: 15px;
+  padding-left: 0;
 }
 header {
   background-color: $lightblue;
@@ -46,4 +57,9 @@ header {
 footer {
   background-color: $darkgray;
   height: 50px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
