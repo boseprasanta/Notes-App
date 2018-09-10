@@ -1,5 +1,4 @@
 window.onload = function() {
-    console.log(showdown)
     var converter = new showdown.Converter();
 
     var pad = document.getElementById('pad');
